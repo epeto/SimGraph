@@ -1,0 +1,18 @@
+compile:
+	mkdir -p classes
+	javac src/estructuras/Pila.java -d classes
+	javac src/estructuras/Cola.java -d classes
+	javac src/estructuras/Heap.java -d classes
+	javac src/estructuras/ColaBinomial.java -d classes
+	javac src/estructuras/DisjSets.java -d classes
+	javac src/estructuras/DSArbol.java -d classes
+	javac -cp classes -p ../lib --add-modules=ALL-MODULE-PATH src/vista/PilaVista.java -d classes
+	javac -cp classes -p ../lib --add-modules=ALL-MODULE-PATH src/vista/ColaVista.java -d classes
+	javac -cp classes -p ../lib --add-modules=ALL-MODULE-PATH src/vista/HeapVista.java -d classes
+	javac -cp classes -p ../lib --add-modules=ALL-MODULE-PATH src/vista/ColaBinVista.java -d classes
+	javac -cp classes -p ../lib --add-modules=ALL-MODULE-PATH src/vista/DisjSetsVista.java -d classes
+	javac -cp classes -p ../lib --add-modules=ALL-MODULE-PATH src/Principal.java -d classes
+run:
+	java -p ../lib --add-modules=ALL-MODULE-PATH -cp ./classes Principal
+clean:
+	rm -r classes

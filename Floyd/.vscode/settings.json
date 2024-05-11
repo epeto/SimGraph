@@ -1,0 +1,13 @@
+{
+    "java.project.referencedLibraries": [
+        "lib/**/*.jar",
+        "/home/emmanuel/Documentos/Análisis de algoritmos/SimGraph/lib/gs-core-2.0.jar",
+        "/home/emmanuel/Documentos/Análisis de algoritmos/SimGraph/lib/gs-ui-swing-2.0.jar",
+        "/home/emmanuel/Documentos/Análisis de algoritmos/SimGraph/lib/javafx.base.jar",
+        "/home/emmanuel/Documentos/Análisis de algoritmos/SimGraph/lib/javafx.controls.jar",
+        "/home/emmanuel/Documentos/Análisis de algoritmos/SimGraph/lib/javafx.graphics.jar"
+    ],
+    "java.project.sourcePaths": [
+        "src"
+    ]
+}
